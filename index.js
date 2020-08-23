@@ -8,3 +8,7 @@ function BoardMember(name,homeState,training)
  {
    return 'No, I must disagree';
  }
+ BoardMember.prototype.approve=function()
+ {
+   return 'You can do that!';
+ }
